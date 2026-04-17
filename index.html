@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Abhishek DN — Forward Deployed Engineer & AI Builder</title>
+  <meta name="description" content="Portfolio of Abhishek DN — Forward Deployed Engineer at Zigment.ai specializing in AI Automation, Cloud Infrastructure, and CRM Integrations." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ✦ CURSOR TRAIL -->
+  <canvas id="cursorCanvas"></canvas>
+
+  <!-- ✦ STAR FIELD -->
+  <canvas id="starCanvas"></canvas>
+
+  <!-- ✦ NAV -->
+  <nav id="nav">
+    <div class="nav-logo">ADN<span class="dot">.</span></div>
+    <ul class="nav-links">
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#work">Work</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav-cta">
+      <a href="#contact" class="btn-pill">Let's Talk</a>
+    </div>
+  </nav>
+
+  <!-- ✦ HERO -->
+  <section id="hero">
+    <div class="hero-content">
+      <div class="hero-badge float-slow">Available for hire ✦</div>
+      <h1 class="hero-name">Abhishek<br /><span class="gradient-text">DN</span></h1>
+      <p class="hero-title">Forward Deployed Engineer<br /><span class="accent-cyan">& AI Systems Builder</span></p>
+      <p class="hero-tagline" id="typewriter"></p>
+      <div class="hero-actions">
+        <a href="#work" class="btn-primary">View My Work</a>
+        <a href="#contact" class="btn-ghost">Get In Touch</a>
+      </div>
+    </div>
+    <div class="hero-orb orb-1"></div>
+    <div class="hero-orb orb-2"></div>
+    <div class="hero-orb orb-3"></div>
+    <!-- Floating ambient badges -->
+    <div class="ambient-badge badge-1 float-med">🤖 AI Automation</div>
+    <div class="ambient-badge badge-2 float-slow">☁️ Cloud Infra</div>
+    <div class="ambient-badge badge-3 float-fast">⚡ DevOps</div>
+    <div class="ambient-badge badge-4 float-med">🐍 Python</div>
+    <div class="scroll-hint">
+      <span>Scroll to explore</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ✦ WORK -->
+  <section id="work">
+    <div class="section-header">
+      <span class="section-label">Selected Work</span>
+      <h2 class="section-title">Projects That<br /><span class="gradient-text">Push Boundaries</span></h2>
+    </div>
+    <div class="cards-grid">
+
+      <div class="project-card" data-tilt id="card-1">
+        <div class="card-glow"></div>
+        <div class="card-inner">
+          <div class="card-header">
+            <span class="card-tag">AI / NLP</span>
+            <span class="card-year">2024</span>
+          </div>
+          <div class="card-icon">💬</div>
+          <h3 class="card-title">AI Conversational<br />Agent Platform</h3>
+          <p class="card-tech">Python · LLM APIs · CRM Integrations · Omnichannel</p>
+          <div class="card-overlay">
+            <div class="overlay-content">
+              <h4>Zigment.ai</h4>
+              <p>Deployed and tailored AI-driven conversational agents integrated with omnichannel communication platforms. Designed intelligent conversation flows connecting CRMs and business systems for automated customer engagement.</p>
+              <div class="overlay-tags">
+                <span>Zigment.ai</span><span>Production</span><span>Multi-channel</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card" data-tilt id="card-2">
+        <div class="card-glow"></div>
+        <div class="card-inner">
+          <div class="card-header">
+            <span class="card-tag">ML / Data</span>
+            <span class="card-year">2025</span>
+          </div>
+          <div class="card-icon">🎬</div>
+          <h3 class="card-title">Movie Recommendation<br />Engine</h3>
+          <p class="card-tech">Python · Scikit-learn · Pandas · Cloud Deploy</p>
+          <div class="card-overlay">
+            <div class="overlay-content">
+              <h4>Scontinent Technologies</h4>
+              <p>Built a collaborative filtering recommendation system. Optimized data pipelines achieving a 20% speed improvement. Deployed AI models to cloud infrastructure for scalable inference.</p>
+              <div class="overlay-tags">
+                <span>Machine Learning</span><span>Pipeline</span><span>AWS</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card" data-tilt id="card-3">
+        <div class="card-glow"></div>
+        <div class="card-inner">
+          <div class="card-header">
+            <span class="card-tag">DevOps / Cloud</span>
+            <span class="card-year">2024</span>
+          </div>
+          <div class="card-icon">🔧</div>
+          <h3 class="card-title">Flask Automation<br />& CI/CD Pipeline</h3>
+          <p class="card-tech">Flask · Docker · Jenkins · GitHub Actions · Azure</p>
+          <div class="card-overlay">
+            <div class="overlay-content">
+              <h4>Infrastructure as Code</h4>
+              <p>Engineered Flask-based automation systems with full CI/CD pipelines. Managed containerized deployments using Docker and Kubernetes on Azure and AWS cloud environments.</p>
+              <div class="overlay-tags">
+                <span>Terraform</span><span>Kubernetes</span><span>Azure</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ✦ SKILLS -->
+  <section id="skills">
+    <div class="section-header">
+      <span class="section-label">Capabilities</span>
+      <h2 class="section-title">Skills In<br /><span class="gradient-text">Orbit</span></h2>
+    </div>
+    <div class="skills-universe">
+      <div class="orbit-system" id="orbitSystem">
+        <div class="orbit-center">
+          <div class="center-core">
+            <span>ADN</span>
+          </div>
+        </div>
+        <!-- Rings rendered by JS -->
+      </div>
+      <div class="skills-legend">
+        <div class="legend-item"><span class="legend-dot violet"></span>AI / ML</div>
+        <div class="legend-item"><span class="legend-dot cyan"></span>Cloud / DevOps</div>
+        <div class="legend-item"><span class="legend-dot white"></span>Languages</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ✦ ABOUT -->
+  <section id="about">
+    <div class="about-grid">
+      <div class="about-portrait-wrap float-slow">
+        <div class="portrait-ring ring-outer"></div>
+        <div class="portrait-ring ring-inner"></div>
+        <div class="portrait-glow"></div>
+        <div class="portrait-placeholder">
+          <div class="portrait-initials">A<span>D</span>N</div>
+          <div class="portrait-label">Bengaluru, India 🇮🇳</div>
+        </div>
+        <div class="portrait-cert cert-1">JP Morgan<br />Certified</div>
+        <div class="portrait-cert cert-2">Azure<br />Certified</div>
+      </div>
+      <div class="about-text">
+        <span class="section-label">About Me</span>
+        <h2 class="section-title">Building the Future<br />at the <span class="gradient-text">Edge of AI</span></h2>
+        <p class="about-bio">I'm a Forward Deployed Engineer at <strong>Zigment.ai</strong>, where I deploy AI-driven conversational agents and architect intelligent automation systems that transform how businesses engage with their customers.</p>
+        <p class="about-bio">With deep roots in <strong>DevOps, Cloud Infrastructure</strong> (Azure & AWS), and backend automation, I bridge the gap between cutting-edge AI models and real-world production environments. My work lives at the intersection of engineering precision and creative problem-solving.</p>
+        <p class="about-bio">Currently diving deeper into <strong>Linux kernel development</strong>, Kubernetes orchestration, and infrastructure as code — always pushing the edge of what's possible.</p>
+        <div class="about-stats">
+          <div class="stat-item">
+            <span class="stat-number">2+</span>
+            <span class="stat-label">Years Experience</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number">15+</span>
+            <span class="stat-label">Technologies</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number">∞</span>
+            <span class="stat-label">Curiosity</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ✦ CONTACT -->
+  <section id="contact">
+    <div class="contact-bg-glow"></div>
+    <div class="section-header">
+      <span class="section-label">Let's Connect</span>
+      <h2 class="section-title">Ready to Build<br /><span class="gradient-text">Something Great?</span></h2>
+    </div>
+    <div class="contact-wrapper">
+      <div class="contact-info float-slow">
+        <div class="contact-line">
+          <span class="contact-icon">📍</span>
+          <span>Bengaluru, Karnataka, India</span>
+        </div>
+        <div class="contact-line">
+          <span class="contact-icon">💼</span>
+          <span>Forward Deployed Engineer @ Zigment.ai</span>
+        </div>
+        <div class="contact-line">
+          <span class="contact-icon">🔗</span>
+          <a href="https://www.linkedin.com/in/abhishek-dn-7bb698232/" target="_blank">linkedin.com/in/abhishek-dn</a>
+        </div>
+        <div class="contact-socials">
+          <a href="https://www.linkedin.com/in/abhishek-dn-7bb698232/" target="_blank" class="social-btn">LinkedIn</a>
+          <a href="https://docs.google.com/document/d/14uenYjp_75m80aziDr8K8_houWzxsSoatwh7DEne_Hc/" target="_blank" class="social-btn">Resume</a>
+        </div>
+      </div>
+      <form class="contact-form glass-card" id="contactForm">
+        <div class="form-group">
+          <label for="name">Your Name</label>
+          <input type="text" id="name" placeholder="Jane Smith" autocomplete="off" />
+        </div>
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" placeholder="jane@company.com" autocomplete="off" />
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" rows="4" placeholder="Tell me about your project..."></textarea>
+        </div>
+        <button type="submit" class="btn-primary full-width" id="submitBtn">
+          <span>Launch Message</span>
+          <span class="btn-icon">🚀</span>
+        </button>
+        <div id="formSuccess" class="form-success hidden">
+          ✦ Message sent into orbit! I'll respond soon.
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- ✦ FOOTER -->
+  <footer>
+    <div class="footer-inner">
+      <span class="footer-logo">ADN<span class="dot">.</span></span>
+      <span class="footer-copy">© 2026 Abhishek DN — Built with gravity-defying code.</span>
+      <span class="footer-back"><a href="#hero">Back to top ↑</a></span>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
